@@ -70,4 +70,14 @@ class Job extends \yii\db\ActiveRecord
             'create_date' => 'Create Date',
         ];
     }
+
+    /**
+     * @inheritdoc
+     */
+    public function getCategory()
+    {
+        # code...
+        return $this->hasOne(Category::className(), ['id' => 'category_id']);
+         
+    }
 }

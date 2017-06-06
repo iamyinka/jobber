@@ -44,4 +44,13 @@ class Category extends \yii\db\ActiveRecord
             'create_date' => 'Create Date',
         ];
     }
+    /**
+     * @inheritdoc
+     */
+
+    public function getJob()
+    {
+        # code...
+        return $this->hasMany(Job::className(), ['category_id' => 'id']);
+    }
 }
