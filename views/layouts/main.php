@@ -76,7 +76,7 @@ AppAsset::register($this);
     <div class="container">
         <p class="pull-left">&copy; Jobber App <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right"><em>Creative Design by:</em> <a href="http://iamyinka">Yinka Ash</a></p>
     </div>
 </footer>
 
