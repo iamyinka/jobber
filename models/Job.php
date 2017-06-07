@@ -83,6 +83,13 @@ class Job extends \yii\db\ActiveRecord
          
     }
 
+    public function getUser()
+    {
+        # code...
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
+         
+    }
+
     public function beforeSave($insert)
     {
         # code...

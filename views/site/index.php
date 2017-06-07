@@ -15,7 +15,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">Browse published open job listings or find employees.</p>
 
-        <p><a class="btn btn-lg btn-success" href="/jobs/index">View Listings &raquo;</a> <a class="btn btn-lg btn-primary" href="/jobs/create">Post Jobs &raquo;</a></p>
+        <p><a class="btn btn-lg btn-success" href="index.php?r=job/index">View Listings &raquo;</a> <a class="btn btn-lg btn-primary" href="index.php?r=job/create">Post Jobs &raquo;</a></p>
     </div>
 
     <div class="body-content">
@@ -29,7 +29,7 @@ $this->title = 'My Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Find A Job &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Find Employees</h2>
@@ -39,7 +39,7 @@ $this->title = 'My Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Search Resumes &raquo;</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Get Help</h2>
@@ -49,7 +49,7 @@ $this->title = 'My Yii Application';
                     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                     fugiat nulla pariatur.</p>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Contact Us &raquo;</a></p>
             </div>
         </div>
 
